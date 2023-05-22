@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header{
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.container{
+    width: 1160px;
+    margin: auto;
+
+
+}
+.h-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.logo img{
+    height: 125px;
+    width: 150px;
+    margin-top: -22px;
+     
+}
+.menu-bar li{
+    list-style: none;
+    display: inline-block;
+    padding-left: 32px;
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 24px;
+    color: red;
+}
+
+/* banner-iteam */
+
+.banner{
+    margin-top: 60px;
+    margin-bottom: 20px;
+    /* justify-content: center; */
+}
+.b-documents h1{
+    font-size: 65px;
+    text-align: center;
+}
+.b-documents p{
+    font-size: 22px;
+    color: rgb(117, 117, 247);
+    text-align: center;
+    /* margin-top: -18px; */
+}
+.b-image img{
+    margin-top: 22px;
+    text-align: center;
+}
+.a-child{
+    display: flex;
+    justify-content: center;
+}
+.a-left{
+    text-align: right;
+    margin-right: 16px;
+}
+.a-left h2{
+    font-size: 52px;
+    color: red;
+    /* margin-bottom: 40px; */
+    
+}
+.a-left p{
+    margin-bottom:30px;
+    color:rgb(100, 100, 233);
+    font-weight: 300;
+}
+.a-right{
+    margin-left: 16px;
+}
+.a-right h2{
+     font-size: 52px;
+     color: red;
+}
+
